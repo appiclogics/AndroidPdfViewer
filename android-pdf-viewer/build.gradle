@@ -13,7 +13,7 @@ ext {
     siteUrl = 'https://github.com/appiclogics/AndroidPdfViewer'
     gitUrl = 'https://github.com/appiclogics/AndroidPdfViewer.git'
 
-    libraryVersion = '3.2.0'
+    libraryVersion = '3.2.1'
 
     developerId = 'appiclogics'
     developerName = 'AppicLogics LLP'
@@ -31,7 +31,7 @@ android {
         minSdkVersion 14
         targetSdkVersion 28
         versionCode 1
-        versionName "3.2.0"
+        versionName "3.2.1"
     }
 
 }
