@@ -22,11 +22,14 @@ android {
         versionName "3.0.0"
     }
 
+
 }
 
 dependencies {
+//    implementation 'com.github.appiclogics:android-pdf-viewer:3.2.0'
+//    implementation 'com.github.appiclogics:AndroidPdfViewer:3.2.0'
     implementation project(':android-pdf-viewer')
-    implementation 'com.android.support:appcompat-v7:28.0.0'
+    implementation 'androidx.appcompat:appcompat:1.1.0'
     implementation 'org.androidannotations:androidannotations-api:4.6.0'
     annotationProcessor "org.androidannotations:androidannotations:4.6.0"
 }
