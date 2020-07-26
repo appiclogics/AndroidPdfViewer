@@ -37,11 +37,11 @@ Licensed under Apache License 2.0.
 
 Add to _build.gradle_:
 
-`implementation 'com.github.barteksc:android-pdf-viewer:3.2.0-beta.1'`
+`implementation 'com.github.appiclogics:android-pdf-viewer:3.2.0-beta.1'`
 
 or if you want to use more stable version:
  
-`implementation 'com.github.barteksc:android-pdf-viewer:2.8.2'`
+`implementation 'com.github.appiclogics:android-pdf-viewer:2.8.2'`
 
 Library is available in jcenter repository, probably it'll be in Maven Central soon.
 
@@ -55,7 +55,7 @@ If you are using ProGuard, add following rule to proguard config file:
 ## Include PDFView in your layout
 
 ``` xml
-<com.github.barteksc.pdfviewer.PDFView
+<com.github.appiclogics.pdfviewer.PDFView
         android:id="@+id/pdfView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"/>
@@ -132,7 +132,7 @@ All methods are documented as Javadoc comments on interface [source](https://git
 ## Document sources
 Version 2.3.0 introduced _document sources_, which are just providers for PDF documents.
 Every provider implements **DocumentSource** interface.
-Predefined providers are available in **com.github.barteksc.pdfviewer.source** package and can be used as
+Predefined providers are available in **com.github.appiclogics.pdfviewer.source** package and can be used as
 samples for creating custom ones.
 
 Predefined providers can be used with shorthand methods:

@@ -13,7 +13,7 @@ import android.widget.TextView;
 
 import com.github.appiclogics.pdfviewer.PDFView;
 import com.github.appiclogics.pdfviewer.util.Util;
-import com.github.barteksc.pdfviewer.R;
+import com.github.appiclogics.pdfviewer.R;
 
 public class DefaultScrollHandle extends RelativeLayout implements ScrollHandle {
 

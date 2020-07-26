@@ -35,7 +35,7 @@ import com.github.appiclogics.pdfviewer.listener.OnPageChangeListener;
 import com.github.appiclogics.pdfviewer.listener.OnPageErrorListener;
 import com.github.appiclogics.pdfviewer.scroll.DefaultScrollHandle;
 import com.github.appiclogics.pdfviewer.util.FitPolicy;
-import com.github.barteksc.sample.R;
+import com.github.appiclogics.sample.R;
 import com.shockwave.pdfium.PdfDocument;
 
 import org.androidannotations.annotations.AfterViews;

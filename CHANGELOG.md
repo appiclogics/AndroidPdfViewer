@@ -97,7 +97,7 @@ currently `OnPageErrorListener` set with `.onPageError()` is called. Invalid pag
 * Update PdfiumAndroid to 1.5.0
 * Thanks to document sources and PdfiumAndroid update, in-memory documents are supported
 * Fix not working OnClickListener on PDFView
-* **com.github.barteksc.exception.FileNotFoundException** is deprecated and all usages was removed.
+* **com.github.appiclogics.exception.FileNotFoundException** is deprecated and all usages was removed.
 All exceptions are delivered to old Configurator#onError() listener.
 
 ## 2.2.0 (2016-11-15)
