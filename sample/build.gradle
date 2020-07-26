@@ -26,7 +26,7 @@ android {
 }
 
 dependencies {
-    implementation 'com.github.appiclogics:android-pdf-viewer:3.2.1'
+    implementation 'com.github.appiclogics:android-pdf-viewer:3.2.2'
 //    implementation 'com.github.appiclogics:AndroidPdfViewer:3.2.0'
    // implementation project(':android-pdf-viewer')
     implementation 'androidx.appcompat:appcompat:1.1.0'

@@ -29,12 +29,12 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.util.Log;
 import android.widget.Toast;
 
-import com.github.barteksc.pdfviewer.PDFView;
-import com.github.barteksc.pdfviewer.listener.OnLoadCompleteListener;
-import com.github.barteksc.pdfviewer.listener.OnPageChangeListener;
-import com.github.barteksc.pdfviewer.listener.OnPageErrorListener;
-import com.github.barteksc.pdfviewer.scroll.DefaultScrollHandle;
-import com.github.barteksc.pdfviewer.util.FitPolicy;
+import com.github.appiclogics.pdfviewer.PDFView;
+import com.github.appiclogics.pdfviewer.listener.OnLoadCompleteListener;
+import com.github.appiclogics.pdfviewer.listener.OnPageChangeListener;
+import com.github.appiclogics.pdfviewer.listener.OnPageErrorListener;
+import com.github.appiclogics.pdfviewer.scroll.DefaultScrollHandle;
+import com.github.appiclogics.pdfviewer.util.FitPolicy;
 import com.github.barteksc.sample.R;
 import com.shockwave.pdfium.PdfDocument;
 
